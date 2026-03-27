@@ -35,21 +35,12 @@ user="postgres"
 password="12345"
 ```
 
-### 3. Установите зависимости
-```bash
-pip install -r requirements.txt
-```
-При проблемах используйте зеркало:
-```bash
-pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements.txt
-```
-
-### 4. Создайте таблицы и тестовые данные
+### 3. Создайте таблицы и тестовые данные
 ```bash
 python database/create_db.py
 ```
 
-### 5. Запустите приложение
+### 4. Запустите приложение
 ```bash
 python main.py
 ```
